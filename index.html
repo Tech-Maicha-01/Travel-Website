@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Animations */
+        .fade-in {
+            animation: fadeIn 2s ease-in;
+        }
+        .slide-up {
+            animation: slideUp 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header class="fade-in">
+        <div class="logo">Travel Nepal 2025</div>
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="service.html">Service</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="icon">
+            <div class="div">
+                <input class="sanjay" type="text" placeholder="Search..." />
+                <i class="fa-solid fa-magnifying-glass"></i>  
+            </div>
+        </div>
+    </header>
+    <!-- hero Section -->
+    <div class="hero slide-up">
+        <h1>Discover Nepal<br/>A Land of Timeless Beauty</h1>
+        <p>From the towering peaks of the Himalayas to the tranquil plains of Terai, Nepal is a treasure trove of awe-inspiring landscapes and ancient culture. Embrace adventure, spirituality, and the warm hospitality of a nation that feels like home.</p>
+        <div class="button">
+            <button class="btn">Plan Your Journey</button>
+            <button class="btn">Explore Blog</button>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
